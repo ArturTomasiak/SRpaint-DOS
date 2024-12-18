@@ -1,9 +1,8 @@
 # SRpaint
 
-SRpaint is a flexible DOS drawing program, designed for the 8086 processor and written in NASM assembly. It supports adjustable brush widths and heights.
+SRpaint is a flexible DOS drawing program, designed for the 8086 processor and written in NASM assembly. It supports adjustable brush widths and heights
 
-<table> <tr> <td><img src="https://github.com/user-attachments/assets/2185806a-84e3-4eb0-bebe-e6c35d9d8b90" alt="shrek" height="150"></td> <td><img src="https://github.com/user-attachments/assets/6cb55598-522d-499a-a36e-8b4dbffc56b1" alt="abstract" height="150"></td> <td><img src="https://github.com/user-attachments/assets/322fb47a-5fd4-4840-8cab-5ec8b3e7faae" alt="kanji paint" height="150"></td> </tr> </table>
-
+ <tr> <td><img src="https://github.com/user-attachments/assets/b0d541ce-9702-40a3-b467-61040bdc6b78" alt="shrek" height="150"></td> <td><img src="https://github.com/user-attachments/assets/b0d541ce-9702-40a3-b467-61040bdc6b78" alt="kanji" height="150"></td> <td><img src="https://github.com/user-attachments/assets/66e5daf9-a278-4fed-a769-b68d02adbd90" alt="abstract art" height="150"></td> </tr> </table>
 
 > [!NOTE]
 > Work in progress; saving, loading and exporting as png is yet to be implemented alongside rewriting the code for masm (as 8086 nasm is limiting)
