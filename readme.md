@@ -4,9 +4,6 @@ SRpaint is a flexible DOS drawing program, designed for the 8086 processor and w
 
  <tr> <td><img src="https://github.com/user-attachments/assets/3d1ddb6c-3e0c-48d1-8adf-3449a733c0bb" alt="shrek" height="150"></td> <td><img src="https://github.com/user-attachments/assets/b0d541ce-9702-40a3-b467-61040bdc6b78" alt="kanji" height="150"></td> <td><img src="https://github.com/user-attachments/assets/66e5daf9-a278-4fed-a769-b68d02adbd90" alt="abstract art" height="150"></td> </tr> </table>
 
-> [!NOTE]
-> Work in progress; saving, loading and exporting as png is yet to be implemented alongside removing redundancy
-
 ---
 
 ## User Manual
@@ -18,21 +15,24 @@ SRpaint is a flexible DOS drawing program, designed for the 8086 processor and w
   - Left mouse click: Draw  
   - Right mouse click: Change color to the cursor position
 
-- **Keybinds**:  
-  - `Q`: Quit  
-  - `I`: Decrease brush height*  
-  - `O`: Increase brush height*  
-  - `K`: Decrease brush width*  
-  - `L`: Increase brush width*
+- **Keybinds**:
+
+    | key | action                 |
+    |-----|------------------------|
+    | `Q` | Quit                   |
+    | `I` | Decrease brush height* |  
+    | `O` | Increase brush height* |  
+    | `K` | Decrease brush width*  |
+    | `L` | Increase brush width*  |
+    | `C` | Clear screen           |
+    | `A` | Square mode            |
+    | `S` | Vertical brush mode    |
+    | `D` | Horizontal brush mode  |
 
 > *Affects both width and height in square mode
-  
-  - `C`: Clear screen  
----
-Each mode has a different default brush shape. Any changes to the shape will persist after switching modes, while it's preview remains the same.
-  - `A`: Square mode  
-  - `S`: Vertical brush mode  
-  - `D`: Horizontal brush mode
+
+- **explanation of modes**:
+  - Each mode has a different default brush shape. Any changes to the shape will persist after switching modes, while it's preview remains the same.
 
 ## How to Build the Program?
 
